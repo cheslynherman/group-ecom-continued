@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* nav bar */
+.nav-link {
+    color: #ed406e !important;
+}
+.navbar-toggler {
+    background-color: #ed406e !important;
+}
+.cart {
+    color: #ed406e;
+}
+
+/* hero */
+.main-text {
+    background-image: url(https://i.postimg.cc/wMqDp27j/pink-laptop-hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background-color: #ED406E !important;
+    color: black !important;
+}
+
+/* featured products */
+.featured-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured-products .card {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #ED406E;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    text-align: center;
+    color: #ED406E !important;
+}
+
+.social-imgs {
+    height: 70px;
+}
+
+.btn {
+    border: 1px solid #ED406E !important;
+    border-radius: 10px;
+    width: 120px;
+    margin: 5px;
+    color: #ED406E !important;
+    font-size: large;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    color: black !important;
+    box-shadow: 0 0 30px 5px #ED406E;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.shop {
+    border: 1px solid black !important;
+    color: black !important;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.shop:hover {
+    color: #ED406E !important;
+    background: black !important;
+    border: 1px solid black !important;
+    box-shadow: 0 0 30px 5px black;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 1100px) {
+    .featured-products .card {
+        margin: 10px !important;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .main-text {
+        color: white !important;
+    }
+
+
+}
+
+@media screen and (max-width: 1025px) {
+    .featured-products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shop {
+        border: 1px solid white !important;
+        color: white !important;
+        box-shadow: 0 0 0 0 transparent;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+    }
+    
+    .shop:hover {
+        color: #ED406E !important;
+        background: white !important;
+        border: 1px solid white !important;
+        box-shadow: 0 0 30px 5px #ED406E;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+    }
+}

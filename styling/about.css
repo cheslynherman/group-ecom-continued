@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    background: #ED406E !important;
+    color: black !important;
+}
+.nav-link {
+    color: #ED406E !important;
+}
+.navbar-toggler {
+    background-color: #ED406E!important;
+}
+.cart {
+    color: #ED406E;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: #ED406E !important;
+}
+.social-imgs {
+    height: 70px;
+}
+.container {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contact-list, .team {
+    border-top: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.card {
+    background: black !important;
+    color: #ED406E !important;
+    margin: 10px;
+    height: 80vh !important;
+    /* overflow: hidden; */
+}
+#team-players {
+    /* columns: 3; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+}
+.card-img-top {
+    padding: 5px !important;
+    /* height: 351px; */
+    aspect-ratio: 5/6;
+    object-fit: fill;
+
+}
+ul {
+    list-style: none;
+}
+.card-title {
+    margin: 5px;
+}
+@media screen and (max-width: 770px){
+    #team-players {
+        display: block;
+        margin-left: 57px!important;
+    }
+}
+@media screen and (max-width: 450px) {
+    #team-players {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+        /* position: fixed;
+        left: -20% !important; */
+        /* width: 290px !important;
+        padding: 0;
+        font-size: 13px !important; */
+    }
+    .card {
+        width: 100% !important;
+        padding: 20px;
+    }
+    /* .card-img-top {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    } */
+}
+
+@media (min-width: 300px) and (max-width: 449px) {
+    .card-img-top {
+        padding: 5px !important;
+        /* height: 351px; */
+        aspect-ratio: 4/8;
+        object-fit: fill;
+    
+    }
+}
+
+
+
